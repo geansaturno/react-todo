@@ -1,0 +1,12 @@
+.todo_btn {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    color: var(--color-action-text-500);
+    background-color: var(--color-action-500);
+    transition: background-color 0.25s;
+
+    &:hover {
+        background-color: var(--color-action-500-hover);
+    }
+}

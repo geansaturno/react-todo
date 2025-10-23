@@ -3,9 +3,10 @@
     gap: 0.5rem;
     align-items: center;
 
-    &__button {
+    &__input {
         padding: 0.5rem 1rem;
         font-size: 1rem;
         border-radius: 8px;
+        border: 1px solid var(--color-text-400);
     }
 }
