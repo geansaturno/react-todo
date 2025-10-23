@@ -1,0 +1,11 @@
+.todo_input {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+
+    &__button {
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        border-radius: 8px;
+    }
+}
