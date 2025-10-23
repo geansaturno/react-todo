@@ -1,17 +1,8 @@
-import { useState } from 'react'
-import { TodoInput } from './components/TodoInput/TodoInput'
+import { TodoApp } from './components/base/TodoApp/TodoApp'
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  function addNewTodo(todo: string) {
-    console.log('todo', todo)
-  }
-
   return (
-    <main>
-      <TodoInput onAdd={addNewTodo}/>
-    </main>
+    <TodoApp/>
   )
 }
 
