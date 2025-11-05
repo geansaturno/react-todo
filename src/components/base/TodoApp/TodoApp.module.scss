@@ -1,5 +1,10 @@
 .todoApp {
     padding-top: 35px;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    &__input {
+        margin-bottom: 20px;
+    }
 }
