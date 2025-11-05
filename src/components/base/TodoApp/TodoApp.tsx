@@ -1,3 +1,4 @@
+import { PageContainer } from "../../shared/PageContainer/PageContainer";
 import { TodoInput } from "../../shared/TodoInput/TodoInput";
 
 export function TodoApp() {
@@ -6,8 +7,10 @@ export function TodoApp() {
     }
 
     return (
-        <main>
-            <TodoInput onAdd={addNewTodo}/>
-        </main>
+        <PageContainer>
+            <main>
+                <TodoInput onAdd={addNewTodo}/>
+            </main>
+        </PageContainer>
     )
 }
