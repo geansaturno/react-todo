@@ -3,6 +3,6 @@ import style from './TodoButton.module.scss'
 
 export function TodoButton({onClick, children}: TodoButtonProps) {
     return (
-        <button className={style.todo_btn} onClick={onClick}>{children}</button>
+        <button className={style.todoBtn} onClick={onClick}>{children}</button>
     )
 }
